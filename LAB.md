@@ -1,6 +1,9 @@
 ![cf](https://i.imgur.com/7v5ASc8.png) LAB: Classes, Inheritance, Functional Programming
 ========================================================================================
 
+ node objects/index.js
+ npm test
+
 ### Before you begin
 * You'll need to initialize this lab folder as a new node module, install your dependencies, setup your npm script commands, and pull in your config files
 
