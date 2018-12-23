@@ -26,7 +26,7 @@ function Motorcycle(name){
     function wheelie(){
         return 'Wheeeee look what I can do!'
     }
-    
+
     let motorcycle = Object.assign(
         {},
         {name},
@@ -39,7 +39,39 @@ function Motorcycle(name){
 
 }
 
+const FlyingVehicle = ()=>({
+    flying(){
+        return 'I can fly through the air!';
+    },
+    landing(){
+        return 'I can land back on the ground';
+    }
+})
 
-module.exports = {Car,Motorcycle };
+function Airplane(name){
+    let airplane = Object.assign(
+        {},
+        {name},
+        {wings: 2},
+        FlyingVehicle()
+    )
+    return Object.freeze(airplane);
+}
+
+function Helicopter(name){
+
+function verticalTakeOff(){
+    return 'I can take off vertically!'
+}
+    let helicopter = Object.assign(
+        {},
+        {name},
+        {wings: 2},
+        {verticalTakeOff},
+        FlyingVehicle()
+    )
+    return Object.freeze(helicopter);
+}
+module.exports = {Car,Motorcycle,Airplane,Helicopter };
 
 
