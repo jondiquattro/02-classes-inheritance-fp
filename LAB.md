@@ -1,6 +1,9 @@
 ![cf](https://i.imgur.com/7v5ASc8.png) LAB: Classes, Inheritance, Functional Programming
 ========================================================================================
 
+ node objects/index.js
+ npm test
+
 ### Before you begin
 * You'll need to initialize this lab folder as a new node module, install your dependencies, setup your npm script commands, and pull in your config files
 
@@ -30,12 +33,12 @@ In the `objects/__tests__` folder, you'll find a file called `vehicle.test.js` t
   * implement a full List constructor using a **constructor function**
   * implement the `.length` property
   * implement the following methods on the list constructor
-    * `push()`
-    * `pop()`
-    * `shift()`
-    * `unshift()`
+    * `push()`x
+    * `pop()`x
+    * `shift()`x
+    * `unshift()`x
     * `splice()`
-    * `slice()`
+    * `slice()`x
   * Do not use any built-in array methods to do this
 
   * **Re-Implement using a Class definition**
